@@ -1,0 +1,43 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+	background-color: #257180;
+}
+
+.container {
+	background-color: #F2E5BF;
+	min-height: 100vh;
+	width: 600px;
+	box-shadow: 2px 2px 2px black;
+}
+
+.text {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h1 {
+	color: #CB6040;
+	padding-top: 15px;
+	font-family: "Concert One", sans-serif;
+	 font-weight: 400;
+	 font-style: normal;
+	 animation: blink 4s infinite;
+}
+
+@keyframes blink {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.divider {
+	margin-top: 25px;
+	animation: float 4s infinite;
+}
+
+@keyframes float {
+	0% {transform: translate(0px, 0px);}
+	50% {transform: translate(0px, 20px);}
+	100% {transform: translate(0px, 0px);}
+}
